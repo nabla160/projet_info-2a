@@ -9,8 +9,8 @@
 #include <stdio.h>
 #include <math.h>
 
-#include "matrice.h"
-#include "luMethod.h"
+#include "../includes/matrice.h"
+#include "../includes/luMethod.h"
 
 int main(int argc, const char * argv[]) {
     Matrice M = createMatrice(2, 2);
@@ -32,4 +32,3 @@ int main(int argc, const char * argv[]) {
     
     return EXIT_SUCCESS;
 }
-
